@@ -1,7 +1,21 @@
 # [Git](https://git-scm.com/)
 ## Changes
 ### Ignoring files
+The rules for the patterns you can put in the `.gitignore` file are as follows[^progit]:
+- Blank lines or lines starting with `#` are ignored.
+- Standard glob patterns work, and will be applied recursively throughout the entire working tree.  
+  Supported expressions: `?`, `*`, `[abc-z]`, `a/**/z` (nested directories).
+- You can start patterns with a forward slash (`/`) to avoid recursivity.
+- You can end patterns with a forward slash (`/`) to specify a directory.
+- You can negate a pattern by starting it with an exclamation point (`!`).
+
 [A collection of .gitignore templates](https://github.com/github/gitignore)
+- Private
+  ```gitignore
+  private/
+  *.private
+  *.private.*
+  ```
 
 ## Credential storage
 Options:
@@ -60,3 +74,5 @@ Quick reference guides:
 - [Git 的奇技淫巧](https://github.com/521xueweihan/git-tips)
 - [Git Commands](https://github.com/joshnh/Git-Commands)
 </details>
+
+[^progit]: *Pro Git*
