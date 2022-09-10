@@ -3,6 +3,21 @@
 ### Ignoring files
 [A collection of .gitignore templates](https://github.com/github/gitignore)
 
+## Credential storage
+Options:
+- default  
+  No cache.
+- cache  
+  Keep credentials in memory for a certain period of time (15 minutes by default).
+- store  
+  Save the credentials to a plain-text file on disk, and they never expire.
+- [Git Credential Manager](https://github.com/GitCredentialManager/git-credential-manager): manager-core  
+  Compared to Git's built-in credential helpers (see below) which provides single-factor authentication support working on any HTTP-enabled Git repository, GCM provides multi-factor authentication support for Azure DevOps, Azure DevOps Server (formerly Team Foundation Server), GitHub, Bitbucket, and GitLab.
+- Windows: wincred
+- Linux: gnome-keyring/libsecret
+- macOS: osxkeychain  
+  <details>Cache credentials in the secure keychain that's attached to your system account.</details>
+
 ## User interfaces
 ### CLI
 - [Git](https://git-scm.com/) ([repo](https://github.com/git/git))  
