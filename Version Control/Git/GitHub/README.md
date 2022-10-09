@@ -15,6 +15,8 @@
   - [GitHub stars history and charts](https://stars.przemeknowak.com/)
   - [GitHub/GitLab Star History](https://codetabs.com/github-stars/github-star-history.html)
 - Forks
+  - [Useful Forks](https://useful-forks.github.io/)
+    - [Refined GitHub](https://github.com/refined-github/refined-github#repositories)
   - [Active GitHub Forks](https://techgaun.github.io/active-forks/index.html)
     - [GitHub - Find active Forks button](https://greasyfork.org/zh-CN/scripts/397171-github-find-active-forks-button)
     - ~~[Github查找活跃的Forks列表](https://greasyfork.org/zh-CN/scripts/429795-github-find-active-forks)~~
@@ -32,6 +34,7 @@
   - [GitHub 文件夹下载](https://greasyfork.org/zh-CN/scripts/434592-github-%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%8B%E8%BD%BD)  
     为 GitHub 文件夹增加一个下载按钮，可以方便地下载某个文件夹。
   - [download-directory.github.io](https://download-directory.github.io/)
+    - [Refined GitHub](https://github.com/refined-github/refined-github#file-management)
   - [DownGit](https://downgit.github.io/)
     - [在线下载Github仓库文件夹](https://greasyfork.org/zh-CN/scripts/411834-download-github-repo-sub-folder)
 - Navigation bar
