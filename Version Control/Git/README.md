@@ -1,4 +1,14 @@
 # [Git](https://git-scm.com/)
+### Partial clone and shallow clone
+[Get up to speed with partial clone and shallow clone](https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone/)
+- `git clone --filter=blob:none <url>`
+- `git clone --filter=tree:0 <url>`
+- `git clone --depth=1 <url>`
+
+Repository | `clone` |  `--filter=blob:none` | `--filter=tree:0` | `--depth=1`
+--- | --- | --- | --- | ---
+torvalds/linux | | | 858MB (2.3GB) | 242MB (1.7GB)
+
 ## Changes
 ### Ignoring files
 The rules for the patterns you can put in the `.gitignore` file are as follows[^progit]:
