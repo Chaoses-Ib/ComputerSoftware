@@ -4,5 +4,7 @@
 
 ## Version Control
 ### [Git](Version%20Control/Git/README.md)
+- [Windows](Version%20Control/Git/Windows.md)
+
 Git-based services:
 - [GitHub](Version%20Control/Git/GitHub/README.md)
