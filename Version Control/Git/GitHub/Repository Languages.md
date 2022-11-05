@@ -1,0 +1,2 @@
+# [Repository Languages](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-repository-languages)
+GitHub uses the [Linguist](../../../Software%20Metrics/Linguist.md) library to determine file languages for syntax highlighting and repository statistics. Language statistics will update after you push changes to your default branch. Note that Linguist only works for repositories with fewer than 100,000 files.
