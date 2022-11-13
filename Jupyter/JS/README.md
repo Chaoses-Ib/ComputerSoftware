@@ -1,4 +1,6 @@
 # JavaScript
+## →[.NET Interactive](../.NET%20Interactive/README.md)
+
 ## IJavascript
 [n-riesco/ijavascript: IJavascript is a javascript kernel for the Jupyter notebook](https://github.com/n-riesco/ijavascript)
 ```cmd

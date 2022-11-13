@@ -6,6 +6,7 @@
 - [Jupyter Server](Jupyter/Jupyter%20Server.md)
 - Python: IPython
   - [Constructs](Jupyter/IPython/Constructs.md)
+- [.NET Interactive](Jupyter/.NET%20Interactive/README.md)
 - [JavaScript](Jupyter/JS/README.md)
 - [C++](Jupyter/C++/README.md)
 
