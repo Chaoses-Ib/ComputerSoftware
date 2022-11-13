@@ -2,6 +2,13 @@
 ## Integrated Development Environments
 - [Visual Studio Code](IDEs/Visual%20Studio%20Code/README.md)
 
+## [Jupyter](Jupyter/README.md)
+- [Jupyter Server](Jupyter/Jupyter%20Server.md)
+- Python: IPython
+  - [Constructs](Jupyter/IPython/Constructs.md)
+- [JavaScript](Jupyter/JS/README.md)
+- [C++](Jupyter/C++/README.md)
+
 ## Version Control
 ### [Git](Version%20Control/Git/README.md)
 - [Windows](Version%20Control/Git/Windows.md)
