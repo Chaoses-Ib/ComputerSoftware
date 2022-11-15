@@ -1,5 +1,7 @@
 # Software Development
 ## Integrated Development Environments
+- Visual Studio
+  - [Text Editor](IDEs/Visual%20Studio/Text%20Editor.md)
 - [Visual Studio Code](IDEs/Visual%20Studio%20Code/README.md)
 
 ## [Jupyter](Jupyter/README.md)
