@@ -1,4 +1,10 @@
 # Software Development
+## [Software Engineering](Software%20Engineering/README.md)
+- [Systems Development Life Cycle](Software%20Engineering/SDLC.md)
+
+### Software Metrics
+- [Linguist](Software%20Metrics/Linguist.md)
+
 ## Integrated Development Environments
 - Visual Studio
   - [Text Editor](IDEs/Visual%20Studio/Text%20Editor.md)
@@ -19,6 +25,3 @@
 Git-based services:
 - [GitHub](Version%20Control/Git/GitHub/README.md)
   - [Repository Languages](Version%20Control/Git/GitHub/Repository%20Languages.md)
-
-## Software Metrics
-- [Linguist](Software%20Metrics/Linguist.md)
