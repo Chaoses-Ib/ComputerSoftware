@@ -24,6 +24,8 @@
 
 ## [Software Engineering](Software%20Engineering/README.md)
 - [Systems Development Life Cycle](Software%20Engineering/SDLC.md)
+- [Models](Software%20Engineering/Models.md)
+- [Unified Modeling Language](Software%20Engineering/UML/README.md)
 - Software Metrics
   - [Linguist](Software%20Metrics/Linguist.md)
 
