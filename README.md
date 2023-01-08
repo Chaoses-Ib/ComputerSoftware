@@ -27,6 +27,7 @@
 - [Models](Software%20Engineering/Models.md)
 - [Unified Modeling Language](Software%20Engineering/UML/README.md)
   - [Use Case Diagram](Software%20Engineering/UML/Use%20Case%20Diagram.md)
+  - [State Machine Diagram](Software%20Engineering/UML/State%20Machine%20Diagram.md)
   - [PlantUML](Software%20Engineering/UML/PlantUML.md)
 - Software Metrics
   - [Linguist](Software%20Engineering/Metrics/Linguist.md)
