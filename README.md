@@ -30,6 +30,7 @@
   - [Object Diagram](Software%20Engineering/UML/Object%20Diagram.md)
   - [Class Diagram](Software%20Engineering/UML/Class%20Diagram.md)
   - [State Machine Diagram](Software%20Engineering/UML/State%20Machine%20Diagram.md)
+  - [Activity Diagram](Software%20Engineering/UML/Activity%20Diagram.md)
   - [PlantUML](Software%20Engineering/UML/PlantUML.md)
 - Software Metrics
   - [Linguist](Software%20Engineering/Metrics/Linguist.md)
