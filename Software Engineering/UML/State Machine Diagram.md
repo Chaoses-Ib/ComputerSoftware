@@ -1,4 +1,6 @@
 # State Machine Diagram
+[^classroom]
+
 Using a **state machine diagram**, you can model the possible states for the system or object in question, how state transitions occur as a consequence of occurring events, and what behavior the system or object exhibits in each state. UML differentiates between two types of state machines, namely **behavior state machines** and **protocol state machines**.
 
 ## States
@@ -90,3 +92,5 @@ You can specify various properties for a transition:
 ![](images/composite-state.png)
 
 A **composite state (complex state, nested state)** is a state that contains multiple other states as well as pseudostates. The states contained within a composite state are referred to as its **substates**.
+
+[^classroom]: UML @ Classroom: An Introduction to Object-Oriented Modeling

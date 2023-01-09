@@ -1,5 +1,6 @@
 # Use Case Diagram
 [^classroom]
+
 The **use case diagram** allows us to describe the possible usage scenarios (use cases) that a system is developed for. A **use case** describes functionality expected from the system to be developed. In general, a use case is triggered either by invocation of an **actor** or by a **trigger event**, in short, a trigger. An actor is always clearly outside the system, i.e., a user is never part of the system and is therefore never implemented.
 
 ## Use cases
