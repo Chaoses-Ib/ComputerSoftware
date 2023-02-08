@@ -34,6 +34,7 @@
   - [PlantUML](Software%20Engineering/UML/PlantUML.md)
 - Software Metrics
   - [Linguist](Software%20Engineering/Metrics/Linguist.md)
+- [Code Review](Software%20Engineering/Code%20Review.md)
 
 ## Version Control
 ### [Git](Version%20Control/Git/README.md)
