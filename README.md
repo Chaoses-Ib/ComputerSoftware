@@ -6,7 +6,7 @@
 - Code Browsers
   - [Source Insight](Programming/Code%20Browsers/Source%20Insight.md)
 - [Code Screenshots](Programming/Code%20Screenshots.md)
-- [GitHub Copilot](Programming/GitHub%20Copilot.md)
+- [AI Coding Assistants](Programming/AI%20Coding%20Assistants.md)
 - [Build](Programming/Build.md)
 
 ### Integrated Development Environments
