@@ -36,8 +36,9 @@
   - [Linguist](Software%20Engineering/Metrics/Linguist.md)
 - [Code Review](Software%20Engineering/Code%20Review.md)
 
-## Version Control
+## [Version Control](Version%20Control/README.md)
 ### [Git](Version%20Control/Git/README.md)
+- [Commits](Version%20Control/Git/Commits.md)
 - [Windows](Version%20Control/Git/Windows.md)
 
 Git-based services:
