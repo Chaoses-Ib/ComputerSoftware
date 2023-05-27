@@ -32,9 +32,12 @@
   - [State Machine Diagram](Software%20Engineering/UML/State%20Machine%20Diagram.md)
   - [Activity Diagram](Software%20Engineering/UML/Activity%20Diagram.md)
   - [PlantUML](Software%20Engineering/UML/PlantUML.md)
+- [Issue Tracking](Software%20Engineering/Issue%20Tracking/README.md)
 - Software Metrics
   - [Linguist](Software%20Engineering/Metrics/Linguist.md)
 - [Code Review](Software%20Engineering/Code%20Review.md)
+- [Error Reporting](Software%20Engineering/Error%20Reporting/README.md)
+  - [Sentry](Software%20Engineering/Error%20Reporting/Sentry.md)
 
 ## [Version Control](Version%20Control/README.md)
 ### [Git](Version%20Control/Git/README.md)
