@@ -25,6 +25,8 @@
 
 ## [Software Engineering](Software%20Engineering/README.md)
 - [Systems Development Life Cycle](Software%20Engineering/SDLC.md)
+- [Software Architecture](Software%20Engineering/Architecture/README.md)
+  - [GUI Architectural Patterns](Software%20Engineering/Architecture/GUI/README.md)
 - [Models](Software%20Engineering/Models.md)
 - [Unified Modeling Language](Software%20Engineering/UML/README.md)
   - [Use Case Diagram](Software%20Engineering/UML/Use%20Case%20Diagram.md)

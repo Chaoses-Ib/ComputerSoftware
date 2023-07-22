@@ -6,27 +6,27 @@ The **use case diagram** allows us to describe the possible usage scenarios (use
 ## Use cases
 ![](images/use-cases.png)
 
-A use case is usually represented as an ellipse. The name of the use case is speciﬁed directly in or directly beneath the ellipse. Alternatively, a use case can be represented by a rectangle that contains the name of the use case in the center and a small ellipse in the top right-hand corner.
+A use case is usually represented as an ellipse. The name of the use case is specified directly in or directly beneath the ellipse. Alternatively, a use case can be represented by a rectangle that contains the name of the use case in the center and a small ellipse in the top right-hand corner.
 
 ![](images/use-cases-grouped.png)
 
 The set of all use cases together describes the functionality that a software system provides. The use cases are generally grouped within a rectangle.
 
 ## Actors
-Actors do not represent a speciﬁc user—they represent **roles** that users adopt. Speciﬁc users can adopt and set aside multiple roles simultaneously.
+Actors do not represent a specific user—they represent **roles** that users adopt. Specific users can adopt and set aside multiple roles simultaneously.
 
 ![](images/actors.png)
 
-In the use case diagram, actors always interact with the system in the context of their use cases, that is, the use cases with which they are associated. Actors are represented by stick ﬁgures, rectangles (containing the additional information `«actor»`), or by a freely deﬁnable symbol.
+In the use case diagram, actors always interact with the system in the context of their use cases, that is, the use cases with which they are associated. Actors are represented by stick figures, rectangles (containing the additional information `«actor»`), or by a freely definable symbol.
 
 An actor interacts with the system by using the system as an **active actor**, meaning that the actor initiates the execution of use cases; alternatively, the interaction involves the actor being used by the system, meaning that the actor is a **passive actor** providing functionality for the execution of use cases.
 
-Furthermore, use case diagrams can also contain both primary and secondary actors. A **primary actor** takes an actual beneﬁt from the execution of the use case, whereas the the **secondary actor** receives no direct beneﬁt from the execution of the use case.
+Furthermore, use case diagrams can also contain both primary and secondary actors. A **primary actor** takes an actual benefit from the execution of the use case, whereas the the **secondary actor** receives no direct benefit from the execution of the use case.
 
 ## Associations
 ![](images/associations.png)
 
-An actor is connected with the use cases via **associations** which express that the actor communicates with the system and uses a certain functionality. **Multiplicities** may be speciﬁed
+An actor is connected with the use cases via **associations** which express that the actor communicates with the system and uses a certain functionality. **Multiplicities** may be specified
 for the association ends.
 
 ## Relationships between actors
@@ -50,7 +50,7 @@ case**. An `«extend»` relationship is shown with a dashed arrow from the exten
 
 ![](images/extend-relationship.png)
 
-A **condition** that must be fulﬁlled for the base use case to insert the behavior of the extending use case can be speciﬁed for every` «extend»` relationship. The condition is speciﬁed, within curly brackets, in a note that is connected with the corresponding `«extend»` relationship. By using **extension points**, you can deﬁne the point at which the behavior of the extending use cases must be inserted in the base use case.
+A **condition** that must be fulfilled for the base use case to insert the behavior of the extending use case can be specified for every` «extend»` relationship. The condition is specified, within curly brackets, in a note that is connected with the corresponding `«extend»` relationship. By using **extension points**, you can define the point at which the behavior of the extending use cases must be inserted in the base use case.
 
 ![](images/use-cases-inheritance-relationship.png)
 

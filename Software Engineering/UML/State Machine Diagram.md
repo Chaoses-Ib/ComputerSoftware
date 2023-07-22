@@ -8,21 +8,21 @@ Using a **state machine diagram**, you can model the possible states for the sys
 
 A state machine diagram is a graph with **states** as nodes and **state transitions** as edges. In the diagram, a state is shown as a rectangle with round corners and is labeled with the name of the state.
 
-When an object is in a speciﬁc state, all **internal activities** speciﬁed in this state can be executed by this object. Within a state you can model three activities that are executed at a predeﬁned moment:
+When an object is in a specific state, all **internal activities** specified in this state can be executed by this object. Within a state you can model three activities that are executed at a predefined moment:
 - entry: executed when the object enters the state
 - do: executed while the object remains in this state
 - exit: executed when the object exits the state
 
 ![](images/state-activities.png)
 
-The respective activity is always speciﬁed with a prepended forward slash that clearly identiﬁes it as an activity.
+The respective activity is always specified with a prepended forward slash that clearly identifies it as an activity.
 
 **Pseudostates** are transient states, which means that the system cannot transient in a pseudostate. These pseudostates include:
 - Initial state
 
   ![](images/initial-state.png)
 
-  The initial state has no incoming edges and usually one outgoing edge which leads to the ﬁrst “real” state.
+  The initial state has no incoming edges and usually one outgoing edge which leads to the first “real” state.
 - Decision node
 
   ![](images/decision-node.png)
@@ -32,24 +32,24 @@ The respective activity is always speciﬁed with a prepended forward slash that
 
   ![](images/parallelization-synchronization-nodes.png)
 
-  The parallelization node has exactly one incoming edge and at least two outgoing edges and is used to split the ﬂow into multiple concurrent transitions. The synchronization node has at least two incoming edges and exactly one outgoing edge and is used to merge multiple concurrent ﬂows.
+  The parallelization node has exactly one incoming edge and at least two outgoing edges and is used to split the flow into multiple concurrent transitions. The synchronization node has at least two incoming edges and exactly one outgoing edge and is used to merge multiple concurrent flows.
 - History state
 - Entry and exit points
 - Terminate node
 
   ![](images/terminate-node.png)
 
-  If a terminate node is reached in a ﬂow, the state machine terminates and the modeled object ceases to exist.
+  If a terminate node is reached in a flow, the state machine terminates and the modeled object ceases to exist.
 
 ![](images/final-state.png)
 
-The only other “real” state is the **final state**. It marks the end of the sequence of states. The object can remain in a ﬁnal state permanently.
+The only other “real” state is the **final state**. It marks the end of the sequence of states. The object can remain in a final state permanently.
 
 ## Events
-UML deﬁnes various types of events, with the most important being:
+UML defines various types of events, with the most important being:
 - Signal event: `event name(arg1, arg2)`
 
-  The signal event is used for asynchronous communication. The receiver is the modeled object and the sender can be another object or the same object as the receiver. The name of the event corresponds to that of the signal and arguments can be speciﬁed.
+  The signal event is used for asynchronous communication. The receiver is the modeled object and the sender can be another object or the same object as the receiver. The name of the event corresponds to that of the signal and arguments can be specified.
 - Call event: `opName(part,par2)`
 
   Call events are operation calls. The name of the event corresponds to the name of an operation including parameters.
@@ -64,7 +64,7 @@ UML deﬁnes various types of events, with the most important being:
   You can use an any receive event to specify a type of “else” transition.
 - Completion event
 
-  A completion event takes place when everything to be done in the current state is completed. If a state has an outgoing transition without any event speciﬁed, the completion event triggers this transition.
+  A completion event takes place when everything to be done in the current state is completed. If a state has an outgoing transition without any event specified, the completion event triggers this transition.
 
 ## State transitions
 The change from one state to another is referred to as a **state transition**.
