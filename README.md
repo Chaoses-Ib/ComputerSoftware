@@ -3,6 +3,7 @@
 - [Shareware](Software/Shareware.md)
 
 ## Programming
+- [→Programming Languages](https://github.com/Chaoses-Ib/FormalLanguages#programming-languages)
 - Code Browsers
   - [Source Insight](Programming/Code%20Browsers/Source%20Insight.md)
 - [Code Screenshots](Programming/Code%20Screenshots.md)

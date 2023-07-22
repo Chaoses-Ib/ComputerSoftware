@@ -8,13 +8,16 @@ Supported languages:
 - C#
 - F#
 - PowerShell
+- Python
+- R
 - JavaScript
 - HTML
 - Mermaid
 - SQL
 - KQL (Kusto Query Language)
-- [ ] Python
+- [ ] C++
+
+  [Add Support for C++ · Issue #1352 · dotnet/interactive](https://github.com/dotnet/interactive/issues/1352)
 - [ ] Julia
-- [ ] R
 
 [Polyglot Notebooks](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode)
