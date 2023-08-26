@@ -35,6 +35,7 @@
   - [State Machine Diagram](Software%20Engineering/UML/State%20Machine%20Diagram.md)
   - [Activity Diagram](Software%20Engineering/UML/Activity%20Diagram.md)
   - [PlantUML](Software%20Engineering/UML/PlantUML.md)
+- [Coding Conventions](Software%20Engineering/Conventions/README.md)
 - [Issue Tracking](Software%20Engineering/Issue%20Tracking/README.md)
 - Software Metrics
   - [Linguist](Software%20Engineering/Metrics/Linguist.md)
