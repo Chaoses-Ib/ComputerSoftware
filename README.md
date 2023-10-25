@@ -1,7 +1,4 @@
-# Software Development
-## Software
-- [Shareware](Software/Shareware.md)
-
+# [Computer Software](Computer%20Software.md)
 ## Programming
 - [→Programming Languages](https://github.com/Chaoses-Ib/FormalLanguages#programming-languages)
 - Code Browsers
@@ -24,25 +21,25 @@
 - [JavaScript](Programming/Jupyter/JS/README.md)
 - [C++](Programming/Jupyter/C++/README.md)
 
-## [Software Engineering](Software%20Engineering/README.md)
-- [Systems Development Life Cycle](Software%20Engineering/SDLC.md)
-- [Software Architecture](Software%20Engineering/Architecture/README.md)
-  - [GUI Architectural Patterns](Software%20Engineering/Architecture/GUI/README.md)
-- [Models](Software%20Engineering/Models.md)
-- [Unified Modeling Language](Software%20Engineering/UML/README.md)
-  - [Use Case Diagram](Software%20Engineering/UML/Use%20Case%20Diagram.md)
-  - [Object Diagram](Software%20Engineering/UML/Object%20Diagram.md)
-  - [Class Diagram](Software%20Engineering/UML/Class%20Diagram.md)
-  - [State Machine Diagram](Software%20Engineering/UML/State%20Machine%20Diagram.md)
-  - [Activity Diagram](Software%20Engineering/UML/Activity%20Diagram.md)
-  - [PlantUML](Software%20Engineering/UML/PlantUML.md)
-- [Coding Conventions](Software%20Engineering/Conventions/README.md)
-- [Issue Tracking](Software%20Engineering/Issue%20Tracking/README.md)
+## [Software Engineering](Engineering/README.md)
+- [Systems Development Life Cycle](Engineering/SDLC.md)
+- [Software Architecture](Engineering/Architecture/README.md)
+  - [GUI Architectural Patterns](Engineering/Architecture/GUI/README.md)
+- [Models](Engineering/Models.md)
+- [Unified Modeling Language](Engineering/UML/README.md)
+  - [Use Case Diagram](Engineering/UML/Use%20Case%20Diagram.md)
+  - [Object Diagram](Engineering/UML/Object%20Diagram.md)
+  - [Class Diagram](Engineering/UML/Class%20Diagram.md)
+  - [State Machine Diagram](Engineering/UML/State%20Machine%20Diagram.md)
+  - [Activity Diagram](Engineering/UML/Activity%20Diagram.md)
+  - [PlantUML](Engineering/UML/PlantUML.md)
+- [Coding Conventions](Engineering/Conventions/README.md)
+- [Issue Tracking](Engineering/Issue%20Tracking/README.md)
 - Software Metrics
-  - [Linguist](Software%20Engineering/Metrics/Linguist.md)
-- [Code Review](Software%20Engineering/Code%20Review.md)
-- [Error Reporting](Software%20Engineering/Error%20Reporting/README.md)
-  - [Sentry](Software%20Engineering/Error%20Reporting/Sentry.md)
+  - [Linguist](Engineering/Metrics/Linguist.md)
+- [Code Review](Engineering/Code%20Review.md)
+- [Error Reporting](Engineering/Error%20Reporting/README.md)
+  - [Sentry](Engineering/Error%20Reporting/Sentry.md)
 
 ## [Version Control](Version%20Control/README.md)
 ### [Git](Version%20Control/Git/README.md)
