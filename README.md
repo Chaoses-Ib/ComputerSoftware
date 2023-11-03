@@ -1,5 +1,15 @@
 # [Computer Software](Computer%20Software.md)
 ## Programming
+- [Programming Paradigms](Programming/Paradigms/README.md)
+  - [Object-oriented Programming](Programming/Paradigms/Object-oriented/README.md)
+    - [Design Patterns](Programming/Paradigms/Object-oriented/Patterns/README.md)
+      - Creational patterns
+        - [Builder](Programming/Paradigms/Object-oriented/Patterns/Cretional/Builder.md)
+        - [Factories](Programming/Paradigms/Object-oriented/Patterns/Cretional/Factories.md)
+        - [Prototype](Programming/Paradigms/Object-oriented/Patterns/Cretional/Prototype.md)
+        - [Singleton](Programming/Paradigms/Object-oriented/Patterns/Cretional/Singleton.md)
+      - Structural patterns
+        - [Proxy](Programming/Paradigms/Object-oriented/Patterns/Structural/Proxy.md)
 - [→Programming Languages](https://github.com/Chaoses-Ib/FormalLanguages#programming-languages)
 - Code Browsers
   - [Source Insight](Programming/Code%20Browsers/Source%20Insight.md)
