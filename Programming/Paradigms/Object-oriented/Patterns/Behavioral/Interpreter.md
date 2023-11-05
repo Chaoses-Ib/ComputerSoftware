@@ -1,0 +1,1 @@
+# [Interpreter](https://en.wikipedia.org/wiki/Interpreter_pattern)

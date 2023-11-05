@@ -1,0 +1,2 @@
+# [Chain of Responsibility](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern)
+![](https://upload.wikimedia.org/wikipedia/commons/6/6a/W3sDesign_Chain_of_Responsibility_Design_Pattern_UML.jpg)

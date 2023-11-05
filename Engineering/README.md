@@ -129,21 +129,32 @@ Laws:
   > Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization's communication structure.
 
 Patterns:
-- [Agile software development](https://en.wikipedia.org/wiki/Agile_software_development)
-
-  > Agile practices include requirements discovery and solutions improvement through the collaborative effort of self-organizing and cross-functional teams with their customer(s)/end user(s).
-
-- [Cowboy coding](https://en.wikipedia.org/wiki/Cowboy_coding)
-
-  > Cowboy coding is software development where programmers have autonomy over the development process. This includes control of the project's schedule, languages, algorithms, tools, frameworks and coding style. Typically, little to no coordination exists with other developers or stakeholders.
-
 - [Egoless programming](https://en.wikipedia.org/wiki/Egoless_programming)
 
   > Egoless programming is a style of computer programming in which personal factors are minimized so that quality may be improved.
 
-- [Extreme programming](https://en.wikipedia.org/wiki/Extreme_programming)
+## [Capability Maturity Model](https://en.wikipedia.org/wiki/Capability_Maturity_Model)
+Levels:
+1. Initial
+   
+   It is characteristic of processes at this level that they are (typically) undocumented and in a state of dynamic change, tending to be driven in an ad hoc, uncontrolled and reactive manner by users or events. This provides a chaotic or unstable environment for the processes. (Example - a surgeon performing a new operation a small number of times - the levels of negative outcome are not known).
 
-  > **Extreme programming (XP)** is a software development methodology intended to improve software quality and responsiveness to changing customer requirements. As a type of agile software development, it advocates frequent releases in short development cycles, intended to improve productivity and introduce checkpoints at which new customer requirements can be adopted.
+2. Repeatable
+   
+   It is characteristic of this level of maturity that some processes are repeatable, possibly with consistent results. Process discipline is unlikely to be rigorous, but where it exists it may help to ensure that existing processes are maintained during times of stress.
+
+3. Defined
+   
+   It is characteristic of processes at this level that there are sets of defined and documented standard processes established and subject to some degree of improvement over time. These standard processes are in place. The processes may not have been systematically or repeatedly used - sufficient for the users to become competent or the process to be validated in a range of situations. This could be considered a developmental stage - with use in a wider range of conditions and user competence development the process can develop to next level of maturity.
+
+4. Managed (Capable)
+   
+   It is characteristic of processes at this level that, using process metrics, effective achievement of the process objectives can be evidenced across a range of operational conditions. The suitability of the process in multiple environments has been tested and the process refined and adapted. Process users have experienced the process in multiple and varied conditions, and are able to demonstrate competence. The process maturity enables adaptions to particular projects without measurable losses of quality or deviations from specifications. Process Capability is established from this level. (Example - surgeon performing an operation hundreds of times with levels of negative outcome approaching zero).
+
+5. Optimizing (Efficient)
+   
+   It is a characteristic of processes at this level that the focus is on continually improving process performance through both incremental and innovative technological changes/improvements. At maturity level 5, processes are concerned with addressing statistical common causes of process variation and changing the process (for example, to shift the mean of the process performance) to improve process performance. This would be done at the same time as maintaining the likelihood of achieving the established quantitative process-improvement objectives.
+
 
 [^crisis-wiki]: [Software crisis - Wikipedia](https://en.wikipedia.org/wiki/Software_crisis)
 [^wiki]: [Software engineering - Wikipedia](https://en.wikipedia.org/wiki/Software_engineering)

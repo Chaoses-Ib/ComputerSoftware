@@ -9,5 +9,7 @@ Design patterns had originally been categorized into 3 sub-classifications based
 
 > It has been observed that design patterns may just be a sign that some features are missing in a given programming language (Java or C++ for instance). Peter Norvig demonstrates that 16 out of the 23 patterns in the Design Patterns book (which is primarily focused on C++) are simplified or eliminated (via direct language support) in Lisp or Dylan. Related observations were made by Hannemann and Kiczales who implemented several of the 23 design patterns using an aspect-oriented programming language (AspectJ) and showed that code-level dependencies were removed from the implementations of 17 of the 23 design patterns and that aspect-oriented programming could simplify the implementations of design patterns. See also Paul Graham's essay "[Revenge of the Nerds](http://www.paulgraham.com/icad.html)".
 
+[Non-OOP Design Patterns? - Software Engineering Stack Exchange](https://softwareengineering.stackexchange.com/questions/67594/non-oop-design-patterns)
+
 
 [^rich]: Rich Hickey
