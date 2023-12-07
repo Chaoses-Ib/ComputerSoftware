@@ -13,6 +13,14 @@
 ## Philosophies
 [List of software development philosophies - Wikipedia](https://en.wikipedia.org/wiki/List_of_software_development_philosophies)
 
+- 一个软件能否成功的首要因素是资金，而不是产品设计、架构选择、技术水平或其它因素。
+
+  不同的架构选择、技术水平之间虽然开发效率有所差别，但都可以通过资金进行弥补，而如果没有资金，一个软件是无法开发下去的。产品设计只是影响了软件的竞争力，但只要有人持续进行投资，或没有其它软件进行竞争，并不会影响软件的存活。
+
+- 程序的质量主要取决于初始编写者的品味和水平。
+  - Code review 只能纠正有显著坏处的设计，而无法纠正隐式的坏设计；另外，如果坏设计过多，一一修正也会消耗大量时间。
+  - 开发团队应该少而精，让低水平的开发者参与开发会降低软件的整体质量，如果他是 leader，那么影响将会更为严重。
+
 - [300 Rules of Thumb and Nuggets of Wisdom](https://www.managingtheunmanageable.net/morerulesofthumb.html)
 
 - [DWIM](https://en.wikipedia.org/wiki/DWIM)

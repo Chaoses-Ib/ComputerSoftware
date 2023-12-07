@@ -83,7 +83,7 @@
 - [Code Review](Engineering/Code%20Review.md)
 - [Error Reporting](Engineering/Error%20Reporting/README.md)
   - [Sentry](Engineering/Error%20Reporting/Sentry.md)
-- [Project management](Engineering/Project/REAMDE.md)
+- [Project Management](Engineering/Project/REAMDE.md)
   - [Program Evaluation and Review Technique](Engineering/Project/PERT.md)
   - [Gantt Chart](Engineering/Project/Gantt.md)
 

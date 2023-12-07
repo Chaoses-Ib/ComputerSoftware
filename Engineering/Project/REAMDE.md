@@ -1,1 +1,1 @@
-# [Project management](https://en.wikipedia.org/wiki/Project_management)
+# [Project Management](https://en.wikipedia.org/wiki/Project_management)
