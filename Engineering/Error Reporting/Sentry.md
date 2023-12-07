@@ -14,11 +14,25 @@ Monthly replays for Session Replay | 50 | 500
 Monthly replays for Session Replay | 1GB | 1GB
 
 ## Platforms
+### [CLI](https://github.com/getsentry/sentry-cli)
+- [CLI reports that an event is sent even if it isn't - Issue #350 - getsentry/sentry-cli](https://github.com/getsentry/sentry-cli/issues/350)
+
+  `send-event` will always print the event ID even the event is not sent successfully.
+
 ### [Rust](https://docs.sentry.io/platforms/rust/)
 [GitHub](https://github.com/getsentry/sentry-rust/tree/master/sentry)
 
+> The Rust SDK does not offer means to detect whether an Event has sent successfully or not.
+
+- `[sentry] Failed to send envelope: error sending request for url (https://*.ingest.sentry.io/api/*/envelope/): error trying to connect: unexpected EOF during handshake`
+
 Integrations:
 - [log](https://docs.rs/sentry-log/0.31.3/sentry_log/)
+- [tracing](https://docs.rs/sentry-tracing/latest/sentry_tracing/index.html)
+  - `Rust Tracing Location`
+  - `Rust Tracing Fields`
+
+    Events with fields of different values but the same message will be grouped together.
 - [tower](https://crates.io/crates/sentry-tower)
 
 [Identify Users](https://docs.sentry.io/platforms/rust/enriching-events/identify-user/):
