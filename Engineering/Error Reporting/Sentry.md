@@ -5,6 +5,28 @@
 
 Sentry 在应用 shutdown 时会进行 flush，默认 timeout 为 2s，可能会导致网络环境较差的用户的 error 丢失。
 
+## Availability
+Sentry 的 API 至少在中国部分地区的 ISP 下被墙，或完全无法访问，或时好时坏，或访问缓慢，会超过默认的 2s 上传超时：
+- HTTP
+
+  `sentry.io`:
+
+  ![](images/Sentry/itdog-http.png)
+
+  `*.ingest.sentry.io`:
+
+  ![](images/Sentry/beijing.png)
+
+  ![](images/Sentry/guangzhou.png)
+
+- ping
+
+  ![](images/Sentry/itdog.png)
+
+  ![](images/Sentry/ping.pe.png)
+
+[如何解决国内无法使用 Sentry 的问题？ - V2EX](https://www.v2ex.com/t/941564)
+
 ## [Pricing](https://sentry.io/pricing/)
 Quota | Developer | Team
 --- | --- | ---
