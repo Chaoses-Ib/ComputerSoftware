@@ -1,6 +1,9 @@
 # C++
 ## xeus-cling
 [jupyter-xeus/xeus-cling: Jupyter kernel for the C++ programming language](https://github.com/jupyter-xeus/xeus-cling)
+
+[Interactive Workflows for C++ with Jupyter | by QuantStack | Jupyter Blog](https://blog.jupyter.org/interactive-workflows-for-c-with-jupyter-fe9b54227d92)
+
 ```sh
 conda create -n cling
 conda activate cling

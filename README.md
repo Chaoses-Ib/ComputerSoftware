@@ -45,8 +45,10 @@
 
 ### [Jupyter](Programming/Jupyter/README.md)
 - [Jupyter Server](Programming/Jupyter/Jupyter%20Server.md)
-- Python: IPython
-  - [Constructs](Programming/Jupyter/IPython/Constructs.md)
+- [Python: IPython](Programming/Jupyter/Python/README.md)
+  - [Constructs](Programming/Jupyter/Python/Constructs.md)
+  - [Widgets](Programming/Jupyter/Python/Widgets/README.md)
+    - [Solara](Programming/Jupyter/Python/Widgets/Solara/README.md) ([Python](Programming/Jupyter/Python/Widgets/Solara/README.ipynb))
 - [.NET Interactive](Programming/Jupyter/.NET%20Interactive/README.md)
 - [JavaScript](Programming/Jupyter/JS/README.md)
 - [C++](Programming/Jupyter/C++/README.md)

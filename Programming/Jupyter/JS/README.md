@@ -1,4 +1,7 @@
 # JavaScript
+## Deno
+[Bringing Modern JavaScript to the Jupyter Notebook | by Kyle Kelley | Jupyter Blog](https://blog.jupyter.org/bringing-modern-javascript-to-the-jupyter-notebook-fc998095081e)
+
 ## →[.NET Interactive](../.NET%20Interactive/README.md)
 
 ## IJavascript

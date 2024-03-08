@@ -3,10 +3,15 @@
 
 > Free software, open standards, and web services for interactive computing across all programming languages.
 
+[Software Subprojects --- Project Jupyter Governance](https://jupyter.org/governance/software_subprojects.html)
+- [List of Official Jupyter Subprojects --- Project Jupyter Governance](https://jupyter.org/governance/list_of_subprojects.html)
+
 Applications:
 - JupyterLab
 - Jupyter Notebook
 - Voilà
+
+[Plug your application into the Jupyter world | by David Brochart | Jupyter Blog](https://blog.jupyter.org/plug-your-application-into-the-jupyter-world-805e48918801)
 
 ## [Kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)
 Interpreted languages:
@@ -15,7 +20,7 @@ Interpreted languages:
 - R
 - Julia
 - [JavaScript](JS/README.md)
-- TypeScript
+- [TypeScript](JS/README.md)
 - PowerShell
 - Bash
 
