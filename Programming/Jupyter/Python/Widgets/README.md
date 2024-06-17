@@ -64,7 +64,7 @@ Web:
 - [ipyfilechooser: Python file chooser widget for use in Jupyter/IPython in conjunction with ipywidgets](https://github.com/crahan/ipyfilechooser)
 
 Bugs:
-- ~~[FileUpload widget does not work with VS Code Notebooks? Renders UI to upload, but cannot read output (runs infinitely with no error or timeout) - Issue #13469 - microsoft/vscode-jupyter](https://github.com/microsoft/vscode-jupyter/issues/13469)~~
+- ~~[FileUpload widget does not work with VS Code Notebooks? Renders UI to upload, but cannot read output (runs infinitely with no error or timeout) - Issue #13469 - microsoft/vscode-jupyter](https://github.com/microsoft/vscode-jupyter/issues/13469)~~ (v2024.1.100+)
 - [FileInput in databricks notebooks results in a timeout exception on read() - Issue #266 - widgetti/ipyvuetify](https://github.com/widgetti/ipyvuetify/issues/266)
 
 ## Others

@@ -3,7 +3,8 @@
 
 [Web Apps in Python with Solara --- A Streamlit Killer? | by Jacob Ferus | May, 2023 | ITNEXT | ITNEXT](https://itnext.io/webapps-in-python-with-solara-a-streamlit-killer-ab6fcc7bf5d7)
 
-[Less dependencies - Issue #207 - widgetti/solara](https://github.com/widgetti/solara/issues/207)
+[Installing Solara](https://solara.dev/documentation/getting_started/installing)
+- [Less dependencies - Issue #207 - widgetti/solara](https://github.com/widgetti/solara/issues/207)
 
 ## [Components](https://solara.dev/docs/fundamentals/components)
 - Widget components
