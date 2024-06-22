@@ -35,6 +35,11 @@ Monthly performance units for Performance Monitoring & Profiling | 10K | 100K
 Monthly replays for Session Replay | 50 | 500
 Monthly replays for Session Replay | 1GB | 1GB
 
+## Release health
+- [.NET](https://docs.sentry.io/platforms/dotnet/configuration/releases/#sessions)
+
+  Disabled by default in the current version.
+
 ## Platforms
 ### [CLI](https://github.com/getsentry/sentry-cli)
 - [CLI reports that an event is sent even if it isn't - Issue #350 - getsentry/sentry-cli](https://github.com/getsentry/sentry-cli/issues/350)
