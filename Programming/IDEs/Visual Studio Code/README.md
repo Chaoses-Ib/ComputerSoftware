@@ -116,7 +116,7 @@ Settings: `Ctrl+,`
 
   `code -n "C:\Test" -g "C:\Test\LICENSE.txt"` works. And if the workspace is already open, it will open the file in the existing window.
 
-  - [OpenFolderAndSelectItemsEx](https://github.com/Chaoses-Ib/IbDOpusScripts#:~:text=Non%2DDOpus%20scripts%3A-,OpenFolderAndSelectItemsEx,-Given%20a%20file)
+  - [OpenFileInWorkspace](https://github.com/Chaoses-Ib/IbDOpusScripts#:~:text=Non%2DDOpus%20scripts%3A-,OpenFileInWorkspace,-Given%20a%20file)
 
 - [vscode-cli-vscode: This is command line help for developer to run vscode-cli command by VS code.](https://github.com/prashantkoshta/vscode-cli-vscode)
 
