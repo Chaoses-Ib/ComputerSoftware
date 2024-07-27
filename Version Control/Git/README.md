@@ -51,6 +51,9 @@ Options:
 - [microsoft/git](https://github.com/microsoft/git)  
   microsoft/git is a special Git distribution to support monorepo scenarios. In addition to the Git CLI, microsoft/git includes the Scalar CLI to further enable working with extremely large repositories.
 
+[Is there a way to get the git root directory in one command? - Stack Overflow](https://stackoverflow.com/questions/957928/is-there-a-way-to-get-the-git-root-directory-in-one-command)
+- `git rev-parse --show-toplevel`
+
 ### TUI
 - [lazygit](https://github.com/jesseduffield/lazygit)
 

@@ -10,6 +10,7 @@
         - [Factories](Programming/Paradigms/Object-oriented/Patterns/Cretional/Factories.md)
         - [Prototype](Programming/Paradigms/Object-oriented/Patterns/Cretional/Prototype.md)
         - [Singleton](Programming/Paradigms/Object-oriented/Patterns/Cretional/Singleton.md)
+        - [Dependency Injection](<Programming/Paradigms/Object-oriented/Patterns/Cretional/Dependency Injection.md>)
       - Structural Patterns
         - [Adapter](Programming/Paradigms/Object-oriented/Patterns/Structural/Adapter.md)
         - [Bridge](Programming/Paradigms/Object-oriented/Patterns/Structural/Bridge.md)
