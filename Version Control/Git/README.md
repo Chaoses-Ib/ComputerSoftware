@@ -43,6 +43,9 @@ Options:
   <details>Cache credentials in the secure keychain that's attached to your system account.</details>
 
 ## User interfaces
+[Associating text editors with Git - GitHub Docs](https://docs.github.com/en/get-started/getting-started-with-git/associating-text-editors-with-git)
+- VS Code: `git config --global core.editor "code --wait"`
+
 ### CLI
 - [Git](https://git-scm.com/) ([repo](https://github.com/git/git))  
 - [Git Extras](https://github.com/tj/git-extras)
