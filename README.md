@@ -93,14 +93,14 @@
 ## [Software Testing](Testing/README.md)
 - [Mocking](Testing/Mocking.md)
 
-## [Version Control](Version%20Control/README.md)
-### [Git](Version%20Control/Git/README.md)
-- [Commits](Version%20Control/Git/Commits.md)
-- [Branches](Version%20Control/Git/Branches.md)
-- [Windows](Version%20Control/Git/Windows.md)
+## [Version Control](Versions/README.md)
+### [Git](Versions/Git/README.md)
+- [Commits](Versions/Git/Commits.md)
+- [Branches](Versions/Git/Branches.md)
+- [Windows](Versions/Git/Windows.md)
 
 Git-based services:
-- [GitHub](Version%20Control/Git/GitHub/README.md)
-  - [Repository Languages](Version%20Control/Git/GitHub/Repository%20Languages.md)
-  - [Organizatons](Version%20Control/Git/GitHub/Organizations.md)
-  - [GitHub Education](Version%20Control/Git/GitHub/Education.md)
+- [GitHub](Versions/Git/GitHub/README.md)
+  - [Repository Languages](<Versions/Git/GitHub/Repository Languages.md>)
+  - [Organizatons](Versions/Git/GitHub/Organizations.md)
+  - [GitHub Education](Versions/Git/GitHub/Education.md)
