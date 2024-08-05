@@ -11,6 +11,11 @@ torvalds/linux | | | 858MB (2.3GB) | 242MB (1.7GB)
 
 ## Changes
 ### Ignoring files
+[Git - gitignore Documentation](https://git-scm.com/docs/gitignore)
+- A `gitignore` file specifies intentionally untracked files that Git should ignore. Files already tracked by Git are not affected.
+
+  To stop tracking a file that is currently tracked, use `git rm --cached` to remove the file from the index. The filename can then be added to the `.gitignore` file to stop the file from being reintroduced in later commits.
+
 The rules for the patterns you can put in the `.gitignore` file are as follows[^progit]:
 - Blank lines or lines starting with `#` are ignored.
 - Standard glob patterns work, and will be applied recursively throughout the entire working tree.  
