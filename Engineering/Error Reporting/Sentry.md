@@ -35,10 +35,70 @@ Monthly performance units for Performance Monitoring & Profiling | 10K | 100K
 Monthly replays for Session Replay | 50 | 500
 Monthly replays for Session Replay | 1GB | 1GB
 
+## Users
+- User identification is disabled by default (except on JavaScript).
+- [.NET](https://docs.sentry.io/platforms/dotnet/enriching-events/identify-user/)
+  - \> 3.29, 4.9: `installationId` as user ID and report IP by default
+  - `IsGlobalModeEnabled`: Specifies whether to use global scope management mode. Should be `true` for client applications and `false` for server applications. The default is `false`. The default for Blazor WASM, MAUI, and Mobile apps is `true`, *but not for WPF apps*.
+- [Rust](https://docs.sentry.io/platforms/rust/enriching-events/identify-user/): Sentry will capture `server_name` by default, but it is not used to identify the users.
+
+  ```rust
+  let _guard = sentry::init(...);
+  let server_name = _guard.options().server_name.as_ref().map(|s| s.to_string());
+  sentry::configure_scope(move |scope| {
+      scope.set_user(Some(sentry::User {
+          username: server_name,
+          ..Default::default()
+      }));
+  });
+  ```
+
 ## Release health
+[Crash-free Sessions, Carefree Users with Release Health | Product Blog - Sentry](https://blog.sentry.io/crash-free-sessions-carefree-users-with-release-health/)
+
+- Session status: `Healthy` (`Exited`), `Errored`, `Abnormal`, `Crashed`
+  - `Errored` includes `Critical` errors
+
+- `Crash Free Sessions` 和 `Crash Free Users` 滞后于图表。
+
 - [.NET](https://docs.sentry.io/platforms/dotnet/configuration/releases/#sessions)
 
   Disabled by default in the current version.
+
+  - Auto session's user can neither be configuared as in Rust, but there is auto user ID.
+  - [Crash Free rate in MAUI seems broken - Issue #2551](https://github.com/getsentry/sentry-dotnet/issues/2551)
+
+    3.35.1~3.41.2, 4.0.0-beta.0
+
+  - [`GlobalSessionManager.cs`](https://github.com/getsentry/sentry-dotnet/blob/6ea8ce3756acff0c8e24b9bb853bd883ea9e696b/src/Sentry/GlobalSessionManager.cs)
+  - `UnhandledException`
+    - [`SentryClient.cs`](https://github.com/getsentry/sentry-dotnet/blob/6ea8ce3756acff0c8e24b9bb853bd883ea9e696b/src/Sentry/SentryClient.cs#L334-L346)
+    - `HasTerminalException() => !handled && mechanism != UnobservedTaskExceptionIntegration`
+
+- [Rust](https://docs.sentry.io/platforms/rust/configuration/releases/)
+
+  ```rust
+  let guard = sentry::init(sentry::ClientOptions {
+      // Auto session's user is broken
+      auto_session_tracking: false,
+      ..Default::default()
+  });
+
+  // Sentry will capture `server_name` by default, but it is not used to identify the users.
+  // User can only be configured after `init()`.
+  let server_name = guard.options().server_name.as_ref().map(|s| s.to_string());
+  sentry::configure_scope(move |scope| {
+      scope.set_user(Some(sentry::User {
+          username: server_name,
+          ..Default::default()
+      }));
+  });
+
+  sentry::start_session();
+  ```
+  [fix: Propagate User updates to the active Session by Swatinem - Pull Request #292 - getsentry/sentry-rust](https://github.com/getsentry/sentry-rust/pull/292)
+
+[What is an acceptable crash-free session and crash-free user rate? : r/vuejs](https://www.reddit.com/r/vuejs/comments/xq60n1/what_is_an_acceptable_crashfree_session_and/)
 
 ## Platforms
 ### [CLI](https://github.com/getsentry/sentry-cli)
@@ -62,9 +122,19 @@ Integrations:
     Events with fields of different values but the same message will be grouped together.
 - [tower](https://crates.io/crates/sentry-tower)
 
-[Identify Users](https://docs.sentry.io/platforms/rust/enriching-events/identify-user/):
-- User identification is disabled by default (except on JavaScript).
-- Sentry will capture `server_name` by default, but it is not used to identify the users.
+### .NET
+[GitHub](https://github.com/getsentry/sentry-dotnet)
+
+- NLog
+  - Trace, Debug → Debug
+  - Info → Info
+  - Warn → Warning
+  - Error → Error
+  - Fatal → Critical
+
+- [Shutdown and Draining | Sentry for Dotnet](https://docs.sentry.io/platforms/dotnet/configuration/draining/)
+
+- [Integrations/AppDomainUnhandledExceptionIntegration.cs](https://github.com/getsentry/sentry-dotnet/blob/6ea8ce3756acff0c8e24b9bb853bd883ea9e696b/src/Sentry/Integrations/AppDomainUnhandledExceptionIntegration.cs)
 
 ## [Debug Information Files](https://docs.sentry.io/platforms/native/data-management/debug-files/)
 ```sh
