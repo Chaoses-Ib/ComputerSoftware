@@ -9,6 +9,32 @@
 [vscode-whatchanged: Visual Studio Code extension for generate changelog](https://github.com/release-lab/vscode-whatchanged)
 - 不支持自定义 format。
 
+## Date
+```sh
+git log --format=fuller
+```
+
+[How do I make a Git commit in the past? - Stack Overflow](https://stackoverflow.com/questions/3895453/how-do-i-make-a-git-commit-in-the-past)
+```
+Git internal format = <unix timestamp> <time zone offset>, e.g.  1112926393 +0200
+RFC 2822            = e.g. Thu, 07 Apr 2005 22:13:13 +0200
+ISO 8601            = e.g. 2005-04-07T22:13:13
+```
+`git commit --date "..."`
+
+```powershell
+$date = (Get-Item "README.md").LastWriteTime | Get-Date -Format o
+$date = (Get-Item "README.md").LastWriteTime | Get-Date -UFormat %s -Millisecond 0
+git commit --date $date
+```
+
+[git - Use file timestamps as commit dates - Stack Overflow](https://stackoverflow.com/questions/74275146/use-file-timestamps-as-commit-dates)
+
+Tools:
+- TortoiseGit
+- VS Code
+  - [Commit with Date: VS Code extension to reate and amend Git commits with manually set commit and author dates.](https://github.com/BrandonXLF/commit-with-date)
+
 ## Rewriting history
 - `git commit --amend`
 
