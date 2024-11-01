@@ -78,6 +78,22 @@ Settings: `Ctrl+,`
      Scoop: `scoop install openssh`
   2. `Remote-SSH: Connect to Host...` or `Remote-SSH: Connect Current Window to Host...`
 
+## Performance
+[Performance Issues - microsoft/vscode Wiki](https://github.com/microsoft/vscode/wiki/Performance-Issues)
+
+Tools:
+- Running Extensions
+
+- Process Explorer
+
+  不够准确。
+
+  [Is there an activity monitor for VS Code and VS Code extensions? - Stack Overflow](https://stackoverflow.com/questions/76592863/is-there-an-activity-monitor-for-vs-code-and-vs-code-extensions)
+
+  [weinand/vscode-processes: Provide access to all VS Code child processes](https://github.com/weinand/vscode-processes)
+
+- Developer Tools
+
 ## Security
 - 在 Windows 上，VS Code 的所有实例必须以同一特权级别运行，即全部非管理员权限或全部管理员权限。当现有实例为非管理员权限时，以管理员权限启动的新实例不会具有管理员权限；当现有实例为管理员权限时，以非管理员权限启动的新实例会无法正常启动。
 - [Workspace Trust](https://code.visualstudio.com/docs/editor/workspace-trust)
