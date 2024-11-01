@@ -136,6 +136,18 @@ Laws:
 
   > Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization's communication structure.
 
+  确实。
+  - 每个人处理自己编写的代码时都更轻松，也更高效
+  - 每个人对其他人修改自己的代码都有一定抵触
+  - 封装或多或少总会泄露，这也就意味着团队的内部结构会对终端用户的使用产生影响
+  - 反过来说，按划分的组件来组建团队也有可能提高团队的效率，或者提前根据团队的结构来划分组件
+  - 软件组件的上下级关系也会影响团队的上下级关系
+  - Interface 产生于不同实体之间，团队的结构会影响 interface
+  - 越大的团队越会倾向于产生不一致、臃肿的软件？
+
+  Discussions:
+  - 2018-02 [这张各大巨头的组织架构图该怎么理解？ - V2EX](https://global.v2ex.com/t/431085)
+
 Patterns:
 - [Egoless programming](https://en.wikipedia.org/wiki/Egoless_programming)
 
