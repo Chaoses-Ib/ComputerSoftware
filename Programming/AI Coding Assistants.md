@@ -1,8 +1,6 @@
 # AI Coding Assistants
 - VS Code: GitHub Copilot
-- GitHub Copilot
-  - [Subscriptions](https://docs.github.com/en/copilot/about-github-copilot/subscription-plans-for-github-copilot)
-  - [Rate limits](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)
+- [GitHub Copilot](#github-copilot)
 - Cursor
 - [Tabnine](https://www.tabnine.com/) ([GitHub](https://github.com/codota/TabNine))
 - Amazon CodeWhisperer
@@ -34,6 +32,43 @@ Tools:
 - [codex\_py2cpp: Converts python code into c++ by using OpenAI CODEX.](https://github.com/alxschwrz/codex_py2cpp)
 
 [e2b-dev/awesome-devins: Awesome Devin-inspired AI agents](https://github.com/e2b-dev/awesome-devins)
+
+## GitHub Copilot
+- [Subscriptions](https://docs.github.com/en/copilot/about-github-copilot/subscription-plans-for-github-copilot)
+  - $10/mo
+
+- [Getting free access to Copilot as a student, teacher, or maintainer - GitHub Docs](https://docs.github.com/en/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-copilot-subscription/getting-free-access-to-copilot-as-a-student-teacher-or-maintainer)
+  - As a verified student on GitHub Education
+    - 85元/yr
+  - As a verified teacher on GitHub Education
+  - As a maintainer of a popular open-source repository
+    - https://github.com/settings/copilot
+    - https://github.com/github-copilot/signup/copilot_individual
+
+    [What's the criteria for being considered "a maintainer of a popular open source ... | Hacker News](https://news.ycombinator.com/item?id=31826013)
+    - 2k stars
+    - > A sample of the first 25k repositories and their stargazers on GitHub shows that the top 1% have over 600 stars, and the top 0.1% have nearly 5,000 stars. That's a very small sample, however.
+
+    ["Github Copilot is free for maintainers of popular open source projects" : r/github](https://www.reddit.com/r/github/comments/1bdmfqi/github_copilot_is_free_for_maintainers_of_popular/)
+    - 1.6k stars
+    - > My best guess is that free copilot access is coming from a repository I have with <20 stars, but that GitHub detects as having 2k+ repositories dependent on it.
+
+    Just many commits are not enough.
+
+- [Rate limits](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)
+
+合租：
+- > copilot一直在升级，现在如果不走转发，ip多了直接就ban
+- [Copilot开车平台](https://cocopilot.org/dash)
+  - > 就是自己伪造一个github enterprise server
+  - [CoCopilot 重大更新 - 运营反馈 - LINUX DO](https://linux.do/t/topic/94939)
+  - [A small snippet to use CoCoPilot without patching Copilot plugin](https://gist.github.com/NyaMisty/d474fbaa5bb9580a935608d1c331f755)
+- [Lael / copilot\_proxy - GitLab](https://gitlab.com/LaelLuo/copilot_proxy)
+
+[xiongkai0920/cocopilot-gpt](https://github.com/xiongkai0920/cocopilot-gpt)
+
+Discussions:
+- 2024-11 [话说你们 copilot 都是$10 自己订阅的吗？ - V2EX](https://www.v2ex.com/t/1092830)
 
 ## [VS Code: GitHub Copilot](https://code.visualstudio.com/docs/copilot/overview)
 - Inline code suggestions
