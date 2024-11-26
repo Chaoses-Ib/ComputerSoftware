@@ -2,15 +2,23 @@
 - VS Code: GitHub Copilot
 - [GitHub Copilot](#github-copilot)
 - Cursor
+- [Codeium](#codeium)
 - [Tabnine](https://www.tabnine.com/) ([GitHub](https://github.com/codota/TabNine))
 - Amazon CodeWhisperer
 
   2023-04 [Amazon CodeWhisperer, Free for Individual Use, is Now Generally Available | AWS News Blog](https://aws.amazon.com/cn/blogs/aws/amazon-codewhisperer-free-for-individual-use-is-now-generally-available/)
   - [个人用户免费，亚马逊正式推出 AI 编程服务 CodeWhisperer - IT之家](https://m.ithome.com/html/686391.htm)
-- [Codeium - Free AI Code Completion & Chat](https://codeium.com/)
 - Bito AI
 
   [效率提升10倍？比ChatGPT靠谱多了！这才是开发者需要的神器。。。](https://mp.weixin.qq.com/s/q7XiJrsbq-DDML0L2Ngz5w)
+
+China:
+- 智谱: [CodeGeeX](https://codegeex.cn/)
+- 非十: [FittenCode](https://code.fittentech.com/)
+- 阿里: [通义灵码](#通义灵码)
+- 百度: 文心快码
+- 腾讯AI助手
+- 字节: MarsCode
 
 Web/UI:
 - [v0 by Vercel](https://v0.dev/)
@@ -116,6 +124,42 @@ Discussions:
 > 
 > 就商模上來說，做插件會更好，因為願意換編輯器的人相對少
 
+## [Codeium](https://codeium.com/)
+- [Autocomplete](https://docs.codeium.com/autocomplete/overview): `Alt+\`, `Alt+[` / `Alt+]`
+  - Accept suggestion word-by-word: `Ctrl+→`
+- [Chat](https://docs.codeium.com/chat/overview): `Ctrl+Shift+A`
+  - [Stats for nerds](https://docs.codeium.com/chat/overview#stats-for-nerds)
+- [Command](https://docs.codeium.com/command/overview): `Ctrl+I`
+- [Supercomplete](https://docs.codeium.com/supercomplete/overview)
+- Smart Paste: `Ctrl+Alt+V`
+
+[VS](https://codeium.com/visual_studio_tutorial)
+
+## [通义灵码](https://tongyi.aliyun.com/lingma)
+- 免费
+- VS Code
+  - Completion: `Alt+P`, `Alt+[` / `Alt+]`
+    - Accept next line: `Alt+↓`
+  - Chat: `Ctrl+Shift+L`
+    - Comment: `Shift+Alt+V`
+    - Explain: `Shift+Alt+P`
+    - Optimize: `Shift+Alt+M`
+    - Unit test: `Shift+Alt+U`
+- VS
+- 读 context 的能力比 Copilot 弱很多
+- 离线单行补全
+
+  > 通义灵码代码补全默认使用云端大模型进行智能续写，当网络情况有限制时，可使用本地补全模式，单击状态栏图标切换至本地补全模式后，编辑器中进行编码时，通义灵码会给出单行的代码建议。
+
+[通义灵码插件使用指南\_智能编码助手\_AI编程\_智能编码助手通义灵码(Lingma)-阿里云帮助中心](https://help.aliyun.com/zh/lingma/user-guide/plugin-usage-guide)
+
+[通义灵码 - 免费的 AI 智能编程助手插件！阿里云国内 GitHub Copilot 替代品 - 异次元软件下载](https://www.iplaysoft.com/tongyi-lingma.html)
+
+Discussions:
+- 2024-07 ["通义灵码"和"Github Copilot" 差距大吗？ - V2EX](https://v2ex.com/t/1057602)
+
+  > Copilot 天花板 ，通义经常把 cpu 吃满而且提示不准确，还老是丢括号
+
 ## Discussions
 - 2023-01 [The End of Programming -- Communications of the ACM](https://cacm.acm.org/opinion/the-end-of-programming/)
 - 2023-01 [奇客Solidot | OpenAI 雇佣千名合同工改进 AI 的编程能力](https://www.solidot.org/story?sid=73986)
@@ -123,6 +167,10 @@ Discussions:
 - 2023-05 [GitHub放大招！CEO现场挑战18分钟开发小游戏，人还在台上网友已经玩到了](https://mp.weixin.qq.com/s/YSZCcHmxIcCEVVsbOTOCRQ)
 - 2023-05 [奇客Solidot | 黄仁勋称 AI 意味着人人都能成为程序员](https://www.solidot.org/story?sid=75099)
 - 2023-08 [研究发现：ChatGPT 回答编程问题的错误率超过 50% - IT之家](https://www.ithome.com/0/711/016.htm)
+- 2023-10 [VSCode 快速入门 | Digital Garden | 王半仙](https://banxian-w.com/article/2023/10/17/2614.html)
+
+  > 在网上调研了一下 [v2ex 用户的使用习惯或推荐](https://v2ex.com/t/1029052)：首推 Copilot（但可能存在延迟问题），其次推荐较多的是 CodiumAI 和通义灵码（可能偶尔会出现 CPU 占用过高的问题）
+
 - ~~2023-10 [微软在 GitHub Copilot 服务上资金亏损严重](https://t.me/CE_Observe/29669)~~
 - 2023-11 [生成式AI不再是賠錢貨、微軟的Copilot賺錢了 - MoneyDJ理財網](https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=dbe78aef-36c4-4db4-a39e-aa85d379b921)
 - 2023-12 [\[deleted by user\] : r/programming](https://www.reddit.com/r/programming/comments/189a2na/deleted_by_user/)
@@ -138,6 +186,37 @@ Discussions:
 - 2024-04 [Debunking Devin: "First AI Software Engineer" Upwork Lie Exposed \[video\] | Hacker News](https://news.ycombinator.com/item?id=40008109)
 
   [世界首个 AI 程序员 Devin 视频竟造假？博主逐帧解析，Devin 代码任务完成很糟糕 - IT之家](https://www.ithome.com/0/761/728.htm)
+
+- 2024-04 [Copilot vs Codeium vs 通义灵码 vs ... - 开发调优 - LINUX DO](https://linux.do/t/topic/59167)
+
+  > GitHub Copilot > Baidu Comate > 阿里通义灵码/Codeium > Fitten Code/华为 CodeArts Snap/讯飞 iFlyCode
+
+- 2024-07 [不懂就问，国产的代码补全工具，腾讯 AI 助手，通义灵码等，那些比较好？ - 资源荟萃 - LINUX DO](https://linux.do/t/topic/128221)
+
+  > 我因为最近接了不少中小单子（都是一些学生和后台系统）在我综合体验下来，根据：提示速度/毫秒耗时、上下文提示是否符号我当前要写的代码、跨页智能提示、注释生成代码（包含简单和业务相关封装的代码等），这些条件下，下面是我一个大概的真实排名。
+  > 
+  > GithubCopilot 和 Codeium 全程都是挂香港代理，延迟都在150~5000ms，根据代理而定，我的代理平均延迟在110ms左右。
+  > 
+  > 国内模型都是不挂代理，我人在深圳，根据我的抓包API延迟在50~1500ms之间，FittenCode最快平均延迟在 80~120ms 之间，但是错误率还好，比起通义灵码、腾讯AI助手、文心快码还是好上很多的，通义灵码有一个本地和云端，强烈建议只用云端就行，本地就是一坨Shift！还不如Idea自带 = =
+  > 
+  > \[排名\] 平均周期轮询使用在 3~5天/个
+  > 1、GithubCopilot
+  > 2、Codeium
+  > 3、FittenCode | CodeGeex
+  > 4、通义灵码
+  > 5、Tencent Cloud AI Code Assistant(腾讯AI助手) | Baidu Comate(文心快码)
+
+  > 我在用通义灵码，vs code的插件做的还行
+
+  > copilot和通义用的VSCode插件。  
+  > 代码补全方面差别不大；  
+  > 代码解释方面通义说的不明白，copilot能稍微机灵点。  
+  > 最近尝试了网页版的腾讯元宝，代码解释和文档总结能力挺强的，希望能有VSCode插件可用，不然总是要复制粘贴。
+
+- 2024-08 [怎么给免费的编程助手 Codeium 加速？？ - V2EX](https://www.v2ex.com/t/1061940)
+
+  > 试过 Qwen 、Fitten Code 、Codeium 和两个月的 Github Copilot ，前面三个我感觉速度其实都还行，不过质量只有 Copilot 比较好。可能是楼主网络有一定延迟？或者现在用的人多了压力太大了  
+  > 我自己现在找了个折中的方案，用 Continue.dev 搭配自己买 API ，用的是国内 Deepseek 的 API ，速度很快，一天花费大概 1 元
 
 - 2024-09 [Effects of Gen AI on High Skilled Work: Experiments with Software Developers | Hacker News](https://news.ycombinator.com/item?id=41465081)
 
