@@ -1,4 +1,44 @@
 # [GitHub](https://github.com/)
+## [Pricing](https://github.com/pricing)
+[GitHub's plans - GitHub Docs](https://docs.github.com/en/get-started/learning-about-github/githubs-plans)
+
+- Free
+  - Unlimited public/private repositories
+  - CI/CD: 2,000 min/mo
+    - Deployment protection rules for public repositories
+  - Pages and Wikis in public repositories
+  - Packages storage: 0.5 GB
+  - GitHub Codespaces: 120 h/mo, 15 GB
+
+- [Pro](https://docs.github.com/en/github/getting-started-with-github/githubs-products#github-pro)
+  - CI/CD: 3,000 min/mo
+  - Packages storage: 2 GB
+  - GitHub Codespaces: 170 h/mo, 20 GB
+  - Advanced tools and insights in private repositories
+    - Required reviewers
+    - Multiple reviewers
+    - Protected branches
+    - Code owners
+    - Auto-linked references
+    - Draft pull requests
+    - Pages and Wikis
+    - Repository insights graphs
+  - Profile badge
+
+Organizations:
+- Free
+  - CI/CD: 2,000 min/mo
+  - Packages storage: 0.5 GB
+
+- Team: $4/user/mo
+  - CI/CD: 3,000 min/mo
+  - Packages storage: 3 GB
+
+- Enterprise: $21/user/mo
+  - Self host
+
+[→Education](Education.md)
+
 ## Tools
 ### Web
 - [Octotree](https://www.octotree.io/)
