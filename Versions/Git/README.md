@@ -66,8 +66,20 @@ Options:
 - [lazygit](https://github.com/jesseduffield/lazygit)
 
 ### [GUI](https://git-scm.com/downloads/guis)
+- IDEs
+  - [VS Code](../../Programming/IDEs/Visual%20Studio%20Code/README.md)
+  - [VS](../../Programming/IDEs/Visual%20Studio/README.md)
+
 - [GitHub Desktop](https://desktop.github.com/) ([repo](https://github.com/desktop/desktop))
+  - Data
+    - `%LOCALAPPDATA%\GitHubDesktop`
+    - `%LOCALAPPDATA%\SquirrelTemp`
+      
+      [Prevent closing the app while it's updating by sergiou87 - Pull Request #15416](https://github.com/desktop/desktop/pull/15416)
+    - `%APPDATA%\GitHub Desktop`
+
 - [TortoiseGit: Windows Shell Interface to Git](https://tortoisegit.org/) ([repo](https://github.com/tortoisegit/tortoisegit/))
+
 - [Git History](https://github.com/pomber/git-history)
 
 ### VFS
