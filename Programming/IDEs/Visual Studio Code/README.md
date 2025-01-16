@@ -1,4 +1,6 @@
 # [Visual Studio Code](https://code.visualstudio.com/)
+[Wikipedia](https://en.wikipedia.org/wiki/Visual_Studio_Code)
+
 - [Documentation](https://code.visualstudio.com/docs)
 - [GitHub](https://github.com/microsoft/vscode)
 
@@ -148,3 +150,14 @@ Icons: `%LOCALAPPDATA%\Programs\Microsoft VS Code\resources\app\resources\win32`
 
 ## Languages
 [Language Identifiers](https://code.visualstudio.com/docs/languages/identifiers)
+
+## Data
+- `%USERPROFILE%\.vscode`
+  - `extensions`
+    - `.obsolete`
+
+    [microsoft visual studio not deleting old extenstnios - still.. like MS systematic solution - Issue #206256 - microsoft/vscode](https://github.com/microsoft/vscode/issues/206256)
+
+    [Extension with an old version is not removed by reloading VsCode after upgrading to a newer version - Issue #182675 - microsoft/vscode](https://github.com/microsoft/vscode/issues/182675)
+
+- Extension custom data
