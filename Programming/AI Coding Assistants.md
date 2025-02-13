@@ -111,6 +111,13 @@ Discussions:
 ## [Cursor](https://www.cursor.so/)
 [GitHub](https://github.com/getcursor/cursor)
 
+- 2023-03-20~
+  - `%USERPROFILE%\cursor-tutor`
+- 2023-04-17
+  - `%USERPROFILE%\.cursor-tutor`
+- 2023-10-22 v0.13.0
+- `%LOCALAPPDATA%\cursor-updater`
+
 > Cursor 現在三大優勢：可以用claude、可以自動完成前一行、AI可以同時修改多檔案與建新檔案
 
 > 话说为什么 cursor 非要改vscode 而不是做成一个extension
