@@ -44,6 +44,9 @@ Tools:
 ## GitHub Copilot
 - [Subscriptions](https://docs.github.com/en/copilot/about-github-copilot/subscription-plans-for-github-copilot)
   - $10/mo
+  - 淘宝
+    - 3mo: 25元/mo
+    - 1yr: 15元/mo
 
 - [Getting free access to Copilot as a student, teacher, or maintainer - GitHub Docs](https://docs.github.com/en/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-copilot-subscription/getting-free-access-to-copilot-as-a-student-teacher-or-maintainer)
   - As a verified student on GitHub Education
@@ -99,6 +102,8 @@ Discussions:
   - Good at context but slow
 - Generate a new VS Code workspace
 
+If sign out doesn't work, disable and then login in the side bar.
+
 [Best practices for GitHub Copilot in VS Code](https://code.visualstudio.com/docs/copilot/prompt-crafting)
 
 [Visual Studio Code October 2024](https://code.visualstudio.com/updates/v1_95)
@@ -107,6 +112,30 @@ Discussions:
 
 > copilot 最有用的也就 autocompletion, 当高级 intellsense 用还挺好. chat 反正用不上几次啦(  
 > 第三方现在主要是 pylance/pyright 不好使很烦.... basedpyright 挺好的但是 ipynb 不支持....
+
+## [Gemini Code Assist](https://codeassist.google/)
+[Gemini Code Assist Standard and Enterprise overview  |  Gemini for Google Cloud](https://cloud.google.com/gemini/docs/codeassist/overview)
+
+[Code with Gemini Code Assist Standard and Enterprise  |  Gemini for Google Cloud](https://cloud.google.com/gemini/docs/codeassist/write-code-gemini)
+
+IDEs:
+- VS Code
+  - Autocomplete
+  - Chat
+
+    > There was a problem getting a response.
+  - Edit
+- JetBrains
+
+> 试了下自动补全功能不如copilot也不如cursor（会出现错位），而且还不支持中文……但是review功能还可以。
+
+Pricing:
+- Individuals
+
+  > This version has high limits on operations such as code completions (6,000 per day), chat engagements (240 per day), and code reviews.
+
+  [Google Gemini's AI coding tool is now free for individual users | The Verge](https://www.theverge.com/news/618839/google-gemini-ai-code-assist-free-individuals-availability)
+  > 谷歌面向企业的人工智能编程工具 Gemini Code Assist 的免费版本现已面向全球个人开发者推出。面向个人的编程工具将推出公开预览版，让学生、业余爱好者、自由职业者和初创公司更容易获得“具有最新AI功能”的编程助手。该免费编码工具可以安装在 VS Code、GitHub 和 JetBrains 开发者环境中，并支持公共领域的所有编程语言。这款编码工具目前支持三十八种语言和最多 128k token 的上下文窗口。对于个人免费版，谷歌每月提供180,000次代码补全，谷歌将其描述为“上限如此之高，即使是当今最专注的专业开发人员也很难超越它。”
 
 ## [Cursor](https://www.cursor.so/)
 [GitHub](https://github.com/getcursor/cursor)
