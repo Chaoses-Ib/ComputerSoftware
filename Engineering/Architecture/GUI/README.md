@@ -1,4 +1,6 @@
 # GUI Architectural Patterns
+- [→Immediate mode](#immediate-mode)
+
 - Model-view-controller (MVC, [Wikipedia](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller))
 
   The controller is responsible for:
@@ -15,7 +17,7 @@
 
 - Model-view-viewmodel (MVVM, [Wikipedia](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel))
   
-  ![](https://res.cloudinary.com/practicaldev/image/fetch/s--wnhmT4T0--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/ukpejkp1tmzatyrgrjtr.png)
+  ![](https://web.archive.org/web/20240108213044if_/https://res.cloudinary.com/practicaldev/image/fetch/s--wnhmT4T0--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https:/thepracticaldev.s3.amazonaws.com/i/ukpejkp1tmzatyrgrjtr.png)
 
   Frameworks:
   - [XAML-based frameworks](https://github.com/Chaoses-Ib/.NET#gui)
@@ -48,3 +50,14 @@
   [MVU might not be what you think it is · Issue #118 · dotnet/maui](https://github.com/dotnet/maui/issues/118)
 
 [MVWTF: Demystifying Architecture Patterns - DEV Community](https://dev.to/adammc331/mvwtf-demystifying-architecture-patterns-ap1)
+
+## Immediate mode
+[Wikipedia](https://en.wikipedia.org/wiki/Immediate_mode_(computer_graphics))
+
+[Graphics: why immediate mode? - The Rust Programming Language Forum](https://users.rust-lang.org/t/graphics-why-immediate-mode/93356)
+
+C++:
+- [Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies](https://github.com/ocornut/imgui)
+
+Rust:
+- [egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native](https://github.com/emilk/egui)
