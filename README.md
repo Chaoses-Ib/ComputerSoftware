@@ -102,5 +102,6 @@
 Git-based services:
 - [GitHub](Versions/Git/GitHub/README.md)
   - [Repository Languages](<Versions/Git/GitHub/Repository Languages.md>)
+  - [Auth](Versions/Git/GitHub/Auth.md)
   - [Organizatons](Versions/Git/GitHub/Organizations.md)
   - [GitHub Education](Versions/Git/GitHub/Education.md)
