@@ -81,6 +81,20 @@ Tools:
 
   Tools:
   - [git-filter-repo: Quickly rewrite git repository history (filter-branch replacement)](https://github.com/newren/git-filter-repo)
+    - Windows
+      - `scoop install git-filter-repo`
+      - Need `python3` (not `python`/`py`)
+        - Patch `git-filter-repo`
+
+        [python - `git filter-repo` commands output nothing on Windows - Stack Overflow](https://stackoverflow.com/questions/69355161/git-filter-repo-commands-output-nothing-on-windows)
+    - [Manual](https://htmlpreview.github.io/?https://github.com/newren/git-filter-repo/blob/docs/html/git-filter-repo.html)
+    - No undo
+
+      [undo git filter-repo and restore deleted repository - Stack Overflow](https://stackoverflow.com/questions/72030303/undo-git-filter-repo-and-restore-deleted-repository)
+    - `--replace-message <expressions_file>` (`a==>b`)
+
+    [Rewriting git history simply with git-filter-repo](https://andrewlock.net/rewriting-git-history-simply-with-git-filter-repo/)
+
   - [git-rocket-filter: Rewrite git branches in a powerful way](https://github.com/xoofx/git-rocket-filter)
 
 [Git - Rewriting History](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)

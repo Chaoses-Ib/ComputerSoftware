@@ -95,6 +95,7 @@
 
 ## [Version Control](Versions/README.md)
 ### [Git](Versions/Git/README.md)
+- [Repositories](Versions/Git/Repositories.md)
 - [Commits](Versions/Git/Commits.md)
 - [Branches](Versions/Git/Branches.md)
 - [Windows](Versions/Git/Windows.md)
