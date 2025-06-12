@@ -37,19 +37,52 @@
 
   ![](https://res.cloudinary.com/practicaldev/image/fetch/s--Xk9-Dois--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/ynwdqq12l4bkfunntd87.png)
 
-- Model-view-update (MVU)
+- [Model-view-update (MVU)](#model-view-update-mvu)
 
   ![](https://res.cloudinary.com/practicaldev/image/fetch/s--pfGYqFNK--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://github.com/dotnet/Comet/raw/dev/art/mvu-pattern.png)
 
-  [MVU or MVVM with MAUI App ? – JM Parent](https://www.jmparent.com/2022/01/18/mvu-or-mvvm-with-maui-app/)
+- MVUX: [Bridging the Gap Between MVU and MVVM](https://platform.uno/blog/intro-mvux/)
 
-  [Model-View-Update (MVU) – How Does It Work?](https://thomasbandt.com/model-view-update)
-
-  [Where is MVU? Tired of using old and unnecessarily verbose XAML · dotnet/maui · Discussion #12820](https://github.com/dotnet/maui/discussions/12820)
-
-  [MVU might not be what you think it is · Issue #118 · dotnet/maui](https://github.com/dotnet/maui/issues/118)
+  [MVUX Overview](https://platform.uno/docs/articles/external/uno.extensions/doc/Overview/Reactive/overview.html)
 
 [MVWTF: Demystifying Architecture Patterns - DEV Community](https://dev.to/adammc331/mvwtf-demystifying-architecture-patterns-ap1)
+
+[What is the actual difference between MVVM and MVC pattern in flutter : r/flutterhelp](https://www.reddit.com/r/flutterhelp/comments/17etao0/what_is_the_actual_difference_between_mvvm_and/)
+
+## Model-view-update (MVU)
+Model-view-update (MVU), The Elm Architecture
+
+![](https://res.cloudinary.com/practicaldev/image/fetch/s--pfGYqFNK--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://github.com/dotnet/Comet/raw/dev/art/mvu-pattern.png)
+
+- A simple directed loop, one way data flow
+- Message passing (bindings / commands)
+  - Events as messages/commands
+    - Listening and message recognizing are separated
+  - Defining a message enum for each view
+    - Verbose, most messages only correspond to one event
+- Redraw cost
+  - Tree diffing
+- vs. MVP?
+
+  In MVU, model directly passes state to the view, bypassing the presenter in MVP.
+
+[The Elm Architecture - An Introduction to Elm](https://guide.elm-lang.org/architecture/)
+
+[MVU or MVVM with MAUI App ? – JM Parent](https://www.jmparent.com/2022/01/18/mvu-or-mvvm-with-maui-app/)
+
+[Model-View-Update (MVU) – How Does It Work?](https://thomasbandt.com/model-view-update)
+
+[Where is MVU? Tired of using old and unnecessarily verbose XAML · dotnet/maui · Discussion #12820](https://github.com/dotnet/maui/discussions/12820)
+
+[MVU might not be what you think it is · Issue #118 · dotnet/maui](https://github.com/dotnet/maui/issues/118)
+- [Microsoft's MVU Is Anything But MVU](https://web.archive.org/web/20200803212537/https://thomasbandt.com/microsoft-maui-mvu)
+
+Implementations:
+- [compio-rs/winio: Single-threaded asynchronous GUI runtime](https://github.com/compio-rs/winio)
+  - Model: `&mut Self`
+  - View: `init`, `start` (async), `render`
+  - Update: `update` (async)
+    - Defining a message enum for each view
 
 ## Immediate mode
 [Wikipedia](https://en.wikipedia.org/wiki/Immediate_mode_(computer_graphics))
