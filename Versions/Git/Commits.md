@@ -3,11 +3,40 @@
 - [Conventional Commits](https://www.conventionalcommits.org/)
 - [Commit Message Guidelines](https://gist.github.com/robertpainsi/b632364184e70900af4ab688decf6f53)
 
-## Commit messages as changelogs
-[Conventional Changelog: Generate changelogs and release notes from a project's commit messages and metadata.](https://github.com/conventional-changelog/conventional-changelog)
+## [`git log`](https://git-scm.com/docs/git-log)
+[Commit formatting](https://git-scm.com/docs/git-log#_commit_formatting):
+- `--pretty`/`--format`
+  - `oneline`
+  - `medium` (default)
+  - `fuller`
+  - `format:<format-string>`
+    - Commit hash: `%H`, `%h`
+    - Commit message: `%s`
+      - Markdowm: `- %s` (`git log --format="format:- %s" --reverse -20`)
+- `--oneline` (`--pretty=oneline --abbrev-commit`)
 
-[vscode-whatchanged: Visual Studio Code extension for generate changelog](https://github.com/release-lab/vscode-whatchanged)
-- 不支持自定义 format。
+[git log - How to git log in reverse order? - Stack Overflow](https://stackoverflow.com/questions/2798822/how-to-git-log-in-reverse-order)
+
+## Commit messages as changelogs
+- [`git log`](#git-log)
+
+- GitHub: [Generate release notes](https://docs.github.com/en/repositories/releasing-projects-on-github/automatically-generated-release-notes)
+  
+  > Automatically add the Markdown for all the merged pull requests from this diff and contributors of this release
+
+  ```md
+  **Full Changelog**: https://github.com/Chaoses-Ib/IbEverythingLib/compare/v0.1.1...v0.1.2
+  ```
+
+  `.github/release.yml`
+
+- [Conventional Changelog: Generate changelogs and release notes from a project's commit messages and metadata.](https://github.com/conventional-changelog/conventional-changelog)
+- [github-changelog-generator: Automatically generate change log from your tags, issues, labels and pull requests on GitHub.](https://github.com/github-changelog-generator/github-changelog-generator)
+  - Ruby
+
+VS Code:
+- [vscode-whatchanged: Visual Studio Code extension for generate changelog](https://github.com/release-lab/vscode-whatchanged) (discontinued)
+  - 不支持自定义 format。
 
 ## Date
 ```sh
