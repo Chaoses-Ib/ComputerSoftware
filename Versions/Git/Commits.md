@@ -3,6 +3,9 @@
 - [Conventional Commits](https://www.conventionalcommits.org/)
 - [Commit Message Guidelines](https://gist.github.com/robertpainsi/b632364184e70900af4ab688decf6f53)
 
+[git - How to modify existing, unpushed commit messages? - Stack Overflow](https://stackoverflow.com/questions/179123/how-to-modify-existing-unpushed-commit-messages)
+- `git rebase -i HEAD~n`
+
 ## [`git log`](https://git-scm.com/docs/git-log)
 [Commit formatting](https://git-scm.com/docs/git-log#_commit_formatting):
 - `--pretty`/`--format`

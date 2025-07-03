@@ -90,10 +90,6 @@ Options:
   - [code996](https://github.com/hellodigua/code996)  
     统计 Git 项目的 commit 时间分布，进而推导出项目的编码工作强度。
 
-## Servers
-- [Gitea: Git with a cup of tea](https://github.com/go-gitea/gitea)
-- [OneDev: Self-hosted Git Server with Kanban and CI/CD](https://github.com/theonedev/onedev)
-
 ## Information sources
 Books:
 - [Pro Git](https://git-scm.com/book) ([repo](https://github.com/progit/progit2))
