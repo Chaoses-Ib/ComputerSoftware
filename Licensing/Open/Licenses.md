@@ -12,10 +12,22 @@ Open-source software licenses and how they interact:
 
 ## [SPDX license expressions](https://spdx.github.io/spdx-spec/v3.0.1/annexes/spdx-license-expressions/)
 
-## Permisive
+## Permissive
 - [MIT](https://choosealicense.com/licenses/mit/)
 
   > The MIT License is short and to the point. It lets people do almost anything they want with your project, like making and distributing closed source versions.
+
+- BSD
+  - BSD-0-Clause: Public domain
+  - BSD-2-Clause: ≈MIT
+
+    > The practical differences between the 2-clause BSD license and the MIT license are marginal. Which one to pick is mostly up to personal taste. Especially considering that both licenses are considered compatible, so you can take code under one license and use it in a project under the other, as long as you keep the license text around.
+  - BSD-3-Clause
+
+    > Neither the name of the `[organization]` nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+  - BSD-4-Clause
+
+    > All advertising materials mentioning features or use of this software must display the following acknowledgement: This product includes software developed by the `[organization]`.
 
 - [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/)
 
@@ -36,6 +48,8 @@ Open-source software licenses and how they interact:
 > There is also an old BSD license that has an clause related to advertising. Don't use it because it's not GPL compatible.
 > 
 > In practice, the ecosystem you are working with has a license that is used most often to begin with, and I would stick to that. For example, I would use MIT for Nodejs packages. If you are working on an application, some would recommend using the Apache 2.0 license because it covers patent issues.
+
+[What are the essential differences between the BSD and MIT licences? - Open Source Stack Exchange](https://opensource.stackexchange.com/questions/217/what-are-the-essential-differences-between-the-bsd-and-mit-licences)
 
 ## Copyleft
 - [GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
