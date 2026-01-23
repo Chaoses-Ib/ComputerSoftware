@@ -36,6 +36,7 @@
   - [Source Insight](Programming/Code%20Browsers/Source%20Insight.md)
 - [Code Screenshots](Programming/Code%20Screenshots.md)
 - [AI Coding Assistants](Programming/AI%20Coding%20Assistants.md)
+  - [TUI](Programming/AI/TUI.typ)
 - [Build](Programming/Build.md)
 
 ### Integrated Development Environments
