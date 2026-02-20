@@ -42,7 +42,8 @@
 ### Integrated Development Environments
 - [Visual Studio](Programming/IDEs/Visual%20Studio/README.md)
   - [Text Editor](Programming/IDEs/Visual%20Studio/Text%20Editor.md)
-- [Visual Studio Code](Programming/IDEs/Visual%20Studio%20Code/README.md)
+- [Visual Studio Code](Programming/IDEs/VSCode/README.md)
+  - [Extensions](Programming/IDEs/VSCode/Extensions/README.typ)
 - [JetBrains](Programming/IDEs/JetBrains/README.md)
 
 ### [Jupyter](Programming/Jupyter/README.md)
