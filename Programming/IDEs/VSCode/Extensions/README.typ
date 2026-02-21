@@ -1,8 +1,11 @@
 #import "@local/ib:0.1.0": *
+#show: ib
 #title[Extensions for Visual Studio Code]
 #a[Extensions for Visual Studio family of products | Visual Studio Marketplace][https://marketplace.visualstudio.com/VSCode]
 
 = #a[API][https://code.visualstudio.com/api]
+#a-badge(body: [Samples])[https://github.com/microsoft/vscode-extension-samples]
+
 #a[Your First Extension][https://code.visualstudio.com/api/get-started/your-first-extension]
 - ```sh npx --package yo --package generator-code -- yo code```
 
@@ -13,6 +16,10 @@
 - #a[Contribution Points][https://code.visualstudio.com/api/references/contribution-points]
 
 - #a[Extension Capabilities][https://code.visualstudio.com/api/extension-capabilities/overview]
+  - [x] ```js DocumentPasteEditProvider```
+    - #a[Add events for copy/paste to allow language extensions to bring using/import statements along - Issue \#30066][https://github.com/microsoft/vscode/issues/30066]
+    - #a[`vscode-extension-samples/document-paste/src/extension.ts`][https://github.com/microsoft/vscode-extension-samples/blob/main/document-paste/src/extension.ts]
+    - #a[feat(link,vscode): paste link_list_to_tree_typ - Chaoses-Ib/ib-typ][https://github.com/Chaoses-Ib/ib-typ/commit/ad8aed44d9e5541052fe19bb0f4044aee95e1f8f]
 
 - #a[Bundling Extensions][https://code.visualstudio.com/api/working-with-extensions/bundling-extension]
   - ```sh yo code```: `unbundled`, `webpack`, `esbuild`
@@ -126,3 +133,11 @@
     #a[Extension with an old version is not removed by reloading VsCode after upgrading to a newer version - Issue \#182675][https://github.com/microsoft/vscode/issues/182675]
 
 - Extension custom data
+
+= Script extensions
+- #a[ArturoDent/find-and-transform][https://github.com/ArturoDent/find-and-transform]
+- #a[calebmpeterson/scriptbox: Enable on-the-fly scripting of your VS Code environment][https://github.com/calebmpeterson/scriptbox]
+- #a[datasert/vscode-texty: Sweet set of Text utilities for VS Code][https://github.com/datasert/vscode-texty]
+  (discontinued)
+
+#a[visual studio code - Using Python or TypeScript to transform text that I select in VSCode - Stack Overflow][https://stackoverflow.com/questions/59060907/using-python-or-typescript-to-transform-text-that-i-select-in-vscode]
