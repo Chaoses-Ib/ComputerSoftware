@@ -108,6 +108,7 @@ Git-based services:
   - [Auth](Versions/Git/GitHub/Auth.md)
   - [Organizatons](Versions/Git/GitHub/Organizations.md)
   - [GitHub Education](Versions/Git/GitHub/Education.md)
+  - [`sponsor-enable.py`](Versions/Git/GitHub/sponsor-enable.py)
 
 ## [Software Licensing](Licensing/README.md)
 - [Open Source](Licensing/Open/README.md)
