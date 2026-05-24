@@ -100,6 +100,7 @@
 - [Repositories](Versions/Git/Repositories.md)
 - [Commits](Versions/Git/Commits.md)
 - [Branches](Versions/Git/Branches.md)
+- [Subtrees](Versions/Git/Subtrees.typ)
 - [Windows](Versions/Git/Windows.md)
 
 Git-based services:
