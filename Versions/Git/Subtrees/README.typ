@@ -88,3 +88,5 @@ Drawbacks (but in our opinion they're largely acceptable):
 
 - #q[An issue we have hit with subtrees is that you can't move them or rename the directories they live in without causing issues.
   Git handles renames and moving of regular directories so well that it lulls you into a false sense of security.]
+
+#a[Explore alternatives to submodules - Issue \#157 - wincent/wincent][https://github.com/wincent/wincent/issues/157]
